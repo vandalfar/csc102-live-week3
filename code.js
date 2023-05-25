@@ -17,10 +17,20 @@ function check(){
     console.log(newTxt)
     console.log(len)
     console.log(halfLen)
+    if(txt.length === 0){
+        alert(`You need to enter some sort of text to check, silly!`)
+    }
+    else if (txt.length === 1){
+        alert(`There needs to be more than one letter or number for there to be a palindrome!
+    
+    Please try something else.    `)
+    }
+    //complete the if/else tree with empty statement
+    else{}
     for( i = 0; i < halfLen; i++){
         //if the length of the text on the left does not equal the length of the text on the right, it is not a palindrome
-        //the text on the left is the new text compared to the generated integer variable
-        //the text on the right is the length of the new text minus the integer variable and a placemarker
+        //compare the text lengths by stepping in from the front and back side of the text
+        //log the value of i to the console
         console.log(i)
         if( newTxt[i] !== newTxt[len-1-i]){
             document.getElementById("statusBoard").innerHTML = "<h3>Nope! Not a palindrome.</h3>";
