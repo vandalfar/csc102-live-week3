@@ -13,12 +13,25 @@
     <!--header division-->
     <div id="header">
         <p>
+            <img id="satorSquare" src="sator_square.jpg" alt="SATOR AREPO TENET OPERA ROTAS">
+            <p>
+                <span id="imageEmphasis">
+                    The SATOR Square is a <a href="https://coriniummuseum.org/2021/07/the-sator-square-by-isobel-wilkes/">historical example</a> of several palindromes. 
+                </span>
+            </p>
             <h1>Palindrome Check</h1>
         </p>
     </div>
     <!--main body of text-->
     <div id="mainText">
-
+        <div id="statusBoard">
+            
+        </div><br>
+        <form id="userInput" onsubmit="return false">
+            <h2>What word(s) would you like me to check?</h2><br>
+            <input type="text" id="palindromeCheck"/>
+            <input id="submitButton" type="submit" onclick="check()"/>
+        </form>
     </div>
     <!--footer division-->
     <div class="footer">

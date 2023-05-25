@@ -1,16 +1,67 @@
+/*created by Michael Anderson*/
+/*change the background of the website to a darker color and light text,
+and define the website's main font family*/
 body{
-    background-color: darkslategray;
+    background-color: black;
     color:antiquewhite;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
+/*align the text of the headers to the center and change fonts and weights
+of different headers for visibility*/
 h1{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
 }
 h4{
     color: darkgoldenrod;
 }
+form{
+    text-align: center;
+}
+#satorSquare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+p #imageEmphasis{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    color:grey;
+    font-style:italic;
+}
+#submitButton{
+    background-color: darkslategray;
+    color: lime;
+    border-radius: 35%;
+    border-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-transform: uppercase;
+}
+#submitButton:hover{
+    height: 30px;
+    width: auto;
+    background-color: rgb(61, 54, 54);
+}
+#palindromeCheck{
+    text-align: left;
+    background-color: black;
+    border: 0px;
+    color: aliceblue;
+    width: 750px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+#palindromeCheck:hover{
+    background-color: darkslategray;
+}
+/*align the footer text to the center*/
 .footer{
     text-align: center;
 }
